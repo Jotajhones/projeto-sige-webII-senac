@@ -1,0 +1,97 @@
+/* --- Estrutura Base --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+nav {
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    min-height: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #666;
+}
+
+/* --- Formulários --- */
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.msg-erro {
+    color: red;
+    font-weight: bold;
+}
+
+/* --- Botões --- */
+.btn-sucesso {
+    padding: 10px 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-novo {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* --- Tabelas --- */
+.tabela-dados {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.tabela-dados th, .tabela-dados td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+.tabela-dados thead tr {
+    background-color: #eee;
+}
+
+.alerta-erro {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
