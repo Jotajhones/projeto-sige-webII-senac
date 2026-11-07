@@ -1,9 +1,9 @@
 # Projeto SIGE - Sistema de Gerenciamento de Eventos Acadêmicos
 
-**Instituição:** Faculdade de Tecnologia e Inovação SENAC DF
-**Disciplina:** Linguagem de Programação para Web II - PHP
-**Professor:** Jean Lima
-**Aluno:** João Pedro Silva de Lima
+**Instituição:** Faculdade de Tecnologia e Inovação SENAC DF  
+**Disciplina:** Linguagem de Programação para Web II - PHP  
+**Professor:** Jean Lima  
+**Aluno:** João Pedro Silva de Lima  
 
 ## Sobre o Projeto
 O SIGE é uma aplicação web desenvolvida para centralizar o gerenciamento de eventos acadêmicos. O sistema permite o cadastro, listagem, edição e exclusão de eventos e participantes, além de realizar o registro e cancelamento de inscrições. O projeto foi construído utilizando PHP puro, HTML, CSS e MySQL, aplicando conceitos fundamentais de CRUD e Programação Orientada a Objetos.
